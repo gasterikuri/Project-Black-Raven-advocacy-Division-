@@ -1,9 +1,10 @@
+![Site Background](sitebackground.jpg)
 
 # Project Black Raven Advocacy Division
 
 ## Mission Statement
 
-Project Black Raven Advocacy Division is committed to ending the adult guardianship system as it currently operates in the United States. We investigate its misuse, document its systemic failures, and expose the practices that enable exploitation, isolation, and the erosion of individual rights.
+Project Black Raven Advocacy Division is committed to ending the adult guardianship system as it currently operates in the United States. We investigate its misuse, document its systemic failures, and[...]
 
 ## Objectives
 
@@ -15,7 +16,7 @@ Project Black Raven Advocacy Division is committed to ending the adult guardians
 
 ## Scope of Work
 
-This repository serves as a public archive of research, documentation, and advocacy tools. It includes formatted legal statutes, strategic analysis, and materials designed to support systemic reform. All content is intended for educational, legal, and policy-related use.
+This repository serves as a public archive of research, documentation, and advocacy tools. It includes formatted legal statutes, strategic analysis, and materials designed to support systemic reform. [...]
 
 ## Contact
 
