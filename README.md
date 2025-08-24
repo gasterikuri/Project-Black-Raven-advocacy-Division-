@@ -1,4 +1,4 @@
-![Site Background](sitebackground.jpg)
+![Site Background](project black raven logo offical.png)
 
 # Project Black Raven Advocacy Division
 
