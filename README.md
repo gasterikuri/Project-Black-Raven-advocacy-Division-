@@ -23,4 +23,3 @@ For inquiries, collaboration, or to contribute to the project, please contact:
 
 ## License
 
-[Insert license type or terms of use here]
