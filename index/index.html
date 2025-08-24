@@ -1,46 +1,115 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Project Black Raven Advocacy Division</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --primary-color: #111;
+      --accent-color: #c00;
+      --text-color: #1a1a1a;
+      --bg-color: #f9f9f9;
+      --section-bg: #fff;
+      --border-color: #ddd;
+    }
+
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      color: #333;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
     }
+
     header {
-      background-color: #222;
+      background-color: var(--primary-color);
       color: #fff;
-      padding: 1rem;
+      padding: 2rem 1rem;
       text-align: center;
+      border-bottom: 4px solid var(--accent-color);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
     }
+
+    .logo-container {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .logo-container img {
+      max-width: 160px;
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+
+    .logo-container img:hover {
+      transform: scale(1.05);
+    }
+
     nav {
-      background-color: #444;
+      background-color: #222;
       display: flex;
       justify-content: center;
-      gap: 1rem;
-      padding: 1rem;
+      padding: 0.8rem;
+      border-bottom: 1px solid #444;
     }
+
     nav a {
-      background-color: #666;
-      color: #fff;
-      padding: 0.5rem 1rem;
+      color: #eee;
       text-decoration: none;
-      border-radius: 4px;
+      margin: 0 1rem;
+      font-weight: 600;
+      padding: 0.4rem 0.6rem;
+      transition: color 0.3s ease, border-bottom 0.3s ease;
+      border-bottom: 2px solid transparent;
     }
+
     nav a:hover {
-      background-color: #888;
+      color: var(--accent-color);
+      border-bottom: 2px solid var(--accent-color);
     }
+
     main {
-      padding: 2rem;
       max-width: 960px;
-      margin: auto;
+      margin: 2rem auto;
+      padding: 0 1rem;
     }
+
     section {
       margin-bottom: 2rem;
+      padding: 1.5rem;
+      background-color: var(--section-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+
+    section:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transform: translateY(-2px);
+    }
+
+    section h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: var(--primary-color);
+    }
+
+    section p {
+      font-size: 1rem;
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: var(--primary-color);
+      color: #aaa;
+      font-size: 0.9rem;
+      border-top: 1px solid #444;
     }
   </style>
 </head>
@@ -50,17 +119,37 @@
     <h1>Project Black Raven Advocacy Division</h1>
   </header>
 
+  <div class="logo-container">
+    <img src="MXkRXGShm8Nq9wZWFiSJS.png" alt="Project Black Raven Logo" />
+  </div>
+
   <nav>
     <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">TOS</a>
+    <a href="#">Mission</a>
+    <a href="#">Operations</a>
+    <a href="#">Contact</a>
   </nav>
 
   <main>
-    <section></section>
-    <section></section>
-    <section></section>
+    <section>
+      <h2>Mission</h2>
+      <p>Project Black Raven is a legal and technical advocacy initiative focused on dismantling exploitative guardianship systems, defending digital autonomy, and restoring constitutional rights. We operate with precision, credibility, and a commitment to systemic reform.</p>
+    </section>
+
+    <section>
+      <h2>Operations</h2>
+      <p>Our work includes live demonstrations of security vulnerabilities, legal document compilation, and strategic policy analysis. We collaborate with families, attorneys, and researchers to expose procedural violations and build airtight counter-narratives.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>To request support, submit documentation, or initiate collaboration, please reach out through secure channels. We prioritize verified cases, credible evidence, and mission-aligned partnerships.</p>
+    </section>
   </main>
+
+  <footer>
+    &copy; 2025 Project Black Raven. All rights reserved.
+  </footer>
 
 </body>
 </html>
