@@ -1,4 +1,4 @@
-![Site Background](project black raven logo offical.png)!
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
 
 # Project Black Raven Advocacy Division
 
