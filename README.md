@@ -19,7 +19,7 @@ This repository serves as a public archive of research, documentation, and advoc
 ## Contact
 
 For inquiries, collaboration, or to contribute to the project, please contact:  
-[Insert preferred contact method or email]
+
 
 ## License
 
