@@ -1,4 +1,4 @@
-<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+<img src="project black raven logo offical.png" alt="Girl in a jacket" width="500" height="600">
 
 # Project Black Raven Advocacy Division
 
