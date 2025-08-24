@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+  <title>Project Black Raven Advocacy Division</title>
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
+
   <style>
     :root {
       --primary-color: #111;
@@ -21,12 +23,39 @@
       background-color: var(--bg-color);
       color: var(--text-color);
       line-height: 1.6;
-      /* Add background image and fallback color */
-      <img src="project black raven logo offical.png" alt="Girl in a jacket" width="500" height="600">
+      position: relative;
+      z-index: 0;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-image: url("project black raven logo offical.png");
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: center center;
+      z-index: -2;
+    }
+
+    body::after {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+      z-index: -1;
+    }
+
+    header, nav, main, footer {
+      position: relative;
+      z-index: 1;
     }
 
     header {
@@ -138,17 +167,17 @@
   <main>
     <section>
       <h2>Mission</h2>
-      <p>Project Black Raven is a legal and technical advocacy initiative focused on dismantling exploitative guardianship systems, defending digital autonomy, and restoring constitutional rights. We [...]
+      <p>Project Black Raven is a legal and technical advocacy initiative focused on dismantling exploitative guardianship systems, defending digital autonomy, and restoring constitutional rights.</p>
     </section>
 
     <section>
       <h2>Operations</h2>
-      <p>Our work includes live demonstrations of security vulnerabilities, legal document compilation, and strategic policy analysis. We collaborate with families, attorneys, and researchers to expos[...]
+      <p>Our work includes live demonstrations of security vulnerabilities, legal document compilation, and strategic policy analysis. We collaborate with families, attorneys, and researchers to expose systemic failures and build resilient counter-narratives.</p>
     </section>
 
     <section>
       <h2>Contact</h2>
-      <p>To request support, submit documentation, or initiate collaboration, please reach out through secure channels. We prioritize verified cases, credible evidence, and mission-aligned partnership[...]
+      <p>To request support, submit documentation, or initiate collaboration, please reach out through secure channels. We prioritize verified cases, credible evidence, and mission-aligned partnerships.</p>
     </section>
   </main>
 
@@ -158,6 +187,5 @@
 
 </body>
 </html>
-
 
 <h1>members</h1>
