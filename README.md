@@ -24,3 +24,16 @@ For inquiries, collaboration, or to contribute to the project, please contact:
 
 
 ## License
+ <body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      /* Add background image and fallback color */
+      background-image: url('https://github.com/gasterikuri/Project-Black-Raven-advocacy-Division-/blob/main/index/sitebackground.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center center;
+    } >
